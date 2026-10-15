@@ -1,6 +1,5 @@
 package utils;
 
-
 public class ArrayUtils {
 
     /**
@@ -14,6 +13,20 @@ public class ArrayUtils {
 
             // Print the current index and the value stored at that index
             System.out.println("Index " + i + ": " + numbers[i]);
+        }
+    }
+
+    /**
+     * Displays all elements in a String array along with their index positions.
+     * @param words the String array whose elements will be printed
+     */
+    public static void displayArray(String[] words) {
+
+        // Loop through the array from index 0 to the last element
+        for (int i = 0; i < words.length; i++) {
+
+            // Print the current index and the value stored at that index
+            System.out.println("Index " + i + ": " + words[i]);
         }
     }
 }
