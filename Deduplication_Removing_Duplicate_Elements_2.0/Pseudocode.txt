@@ -1,0 +1,17 @@
+START
+
+Create an empty array
+
+For each number in the original array
+
+If the number is not already in the new array
+
+Add it to the new array
+
+End If
+
+End For
+
+Return the new array
+
+END
